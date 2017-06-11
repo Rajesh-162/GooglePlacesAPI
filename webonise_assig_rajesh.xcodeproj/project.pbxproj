@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1075213606B3FD50C7FD7345 /* libPods-webonise_assig_rajesh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3105A870D1B097E9F28E05 /* libPods-webonise_assig_rajesh.a */; };
+		184240751EEB9710007D0917 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184240721EEB9710007D0917 /* ResultViewController.swift */; };
+		184240761EEB9710007D0917 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184240741EEB9710007D0917 /* SearchViewController.swift */; };
+		18504D511EE9B87A0002D77C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18504D501EE9B87A0002D77C /* AppDelegate.swift */; };
+		18504D561EE9B87A0002D77C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18504D541EE9B87A0002D77C /* Main.storyboard */; };
+		18504D591EE9B87A0002D77C /* webonise_assig_rajesh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18504D571EE9B87A0002D77C /* webonise_assig_rajesh.xcdatamodeld */; };
+		18504D5B1EE9B87A0002D77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18504D5A1EE9B87A0002D77C /* Assets.xcassets */; };
+		18504D5E1EE9B87A0002D77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18504D5C1EE9B87A0002D77C /* LaunchScreen.storyboard */; };
+		18504D691EE9B87B0002D77C /* webonise_assig_rajeshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18504D681EE9B87B0002D77C /* webonise_assig_rajeshTests.swift */; };
+		187CBA631EECA1230076D7F7 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CBA621EECA1230076D7F7 /* SearchViewModel.swift */; };
+		187CBA651EECA14F0076D7F7 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CBA641EECA14F0076D7F7 /* ResultViewModel.swift */; };
+		187CBA671EECA9A80076D7F7 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CBA661EECA9A70076D7F7 /* Protocols.swift */; };
+		18DB908C1EEC378A00B0D2B5 /* PlaceTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB908B1EEC378A00B0D2B5 /* PlaceTableCell.swift */; };
+		18DB908E1EEC482F00B0D2B5 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB908D1EEC482E00B0D2B5 /* DBHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18504D651EE9B87B0002D77C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18504D451EE9B87A0002D77C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18504D4C1EE9B87A0002D77C;
+			remoteInfo = webonise_assig_rajesh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184240721EEB9710007D0917 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		184240741EEB9710007D0917 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		18504D4D1EE9B87A0002D77C /* webonise_assig_rajesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webonise_assig_rajesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18504D501EE9B87A0002D77C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18504D551EE9B87A0002D77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18504D581EE9B87A0002D77C /* webonise_assig_rajesh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = webonise_assig_rajesh.xcdatamodel; sourceTree = "<group>"; };
+		18504D5A1EE9B87A0002D77C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18504D5D1EE9B87A0002D77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18504D5F1EE9B87A0002D77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18504D641EE9B87B0002D77C /* webonise_assig_rajeshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webonise_assig_rajeshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18504D681EE9B87B0002D77C /* webonise_assig_rajeshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webonise_assig_rajeshTests.swift; sourceTree = "<group>"; };
+		18504D6A1EE9B87B0002D77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187CBA621EECA1230076D7F7 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		187CBA641EECA14F0076D7F7 /* ResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		187CBA661EECA9A70076D7F7 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		18DB908B1EEC378A00B0D2B5 /* PlaceTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableCell.swift; sourceTree = "<group>"; };
+		18DB908D1EEC482E00B0D2B5 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		1D3105A870D1B097E9F28E05 /* libPods-webonise_assig_rajesh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webonise_assig_rajesh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F7D64A7434A8285F9C397C /* Pods-webonise_assig_rajesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webonise_assig_rajesh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webonise_assig_rajesh/Pods-webonise_assig_rajesh.debug.xcconfig"; sourceTree = "<group>"; };
+		A19F74E531A3DCCFD025CC22 /* Pods_webonise_assig_rajeshTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webonise_assig_rajeshTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED54A725919B7056C6ED3BB3 /* Pods-webonise_assig_rajesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webonise_assig_rajesh.release.xcconfig"; path = "Pods/Target Support Files/Pods-webonise_assig_rajesh/Pods-webonise_assig_rajesh.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18504D4A1EE9B87A0002D77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1075213606B3FD50C7FD7345 /* libPods-webonise_assig_rajesh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18504D611EE9B87B0002D77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184240711EEB9710007D0917 /* SearchResultView */ = {
+			isa = PBXGroup;
+			children = (
+				187CBA641EECA14F0076D7F7 /* ResultViewModel.swift */,
+				184240721EEB9710007D0917 /* ResultViewController.swift */,
+			);
+			path = SearchResultView;
+			sourceTree = "<group>";
+		};
+		184240731EEB9710007D0917 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				187CBA621EECA1230076D7F7 /* SearchViewModel.swift */,
+				184240741EEB9710007D0917 /* SearchViewController.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		18504D441EE9B87A0002D77C = {
+			isa = PBXGroup;
+			children = (
+				18504D4F1EE9B87A0002D77C /* webonise_assig_rajesh */,
+				18504D671EE9B87B0002D77C /* webonise_assig_rajeshTests */,
+				18504D4E1EE9B87A0002D77C /* Products */,
+				3732DCB49C4E515E1A85D0D4 /* Pods */,
+				87F3329C67D9B130D32945E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18504D4E1EE9B87A0002D77C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18504D4D1EE9B87A0002D77C /* webonise_assig_rajesh.app */,
+				18504D641EE9B87B0002D77C /* webonise_assig_rajeshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18504D4F1EE9B87A0002D77C /* webonise_assig_rajesh */ = {
+			isa = PBXGroup;
+			children = (
+				18DB908B1EEC378A00B0D2B5 /* PlaceTableCell.swift */,
+				18DB908D1EEC482E00B0D2B5 /* DBHelper.swift */,
+				187CBA661EECA9A70076D7F7 /* Protocols.swift */,
+				184240711EEB9710007D0917 /* SearchResultView */,
+				184240731EEB9710007D0917 /* SearchView */,
+				18504D501EE9B87A0002D77C /* AppDelegate.swift */,
+				18504D541EE9B87A0002D77C /* Main.storyboard */,
+				18504D5A1EE9B87A0002D77C /* Assets.xcassets */,
+				18504D5C1EE9B87A0002D77C /* LaunchScreen.storyboard */,
+				18504D5F1EE9B87A0002D77C /* Info.plist */,
+				18504D571EE9B87A0002D77C /* webonise_assig_rajesh.xcdatamodeld */,
+			);
+			path = webonise_assig_rajesh;
+			sourceTree = "<group>";
+		};
+		18504D671EE9B87B0002D77C /* webonise_assig_rajeshTests */ = {
+			isa = PBXGroup;
+			children = (
+				18504D681EE9B87B0002D77C /* webonise_assig_rajeshTests.swift */,
+				18504D6A1EE9B87B0002D77C /* Info.plist */,
+			);
+			path = webonise_assig_rajeshTests;
+			sourceTree = "<group>";
+		};
+		3732DCB49C4E515E1A85D0D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43F7D64A7434A8285F9C397C /* Pods-webonise_assig_rajesh.debug.xcconfig */,
+				ED54A725919B7056C6ED3BB3 /* Pods-webonise_assig_rajesh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87F3329C67D9B130D32945E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A19F74E531A3DCCFD025CC22 /* Pods_webonise_assig_rajeshTests.framework */,
+				1D3105A870D1B097E9F28E05 /* libPods-webonise_assig_rajesh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18504D4C1EE9B87A0002D77C /* webonise_assig_rajesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18504D6D1EE9B87B0002D77C /* Build configuration list for PBXNativeTarget "webonise_assig_rajesh" */;
+			buildPhases = (
+				11696FC596792A1CF3D4F594 /* [CP] Check Pods Manifest.lock */,
+				18504D491EE9B87A0002D77C /* Sources */,
+				18504D4A1EE9B87A0002D77C /* Frameworks */,
+				18504D4B1EE9B87A0002D77C /* Resources */,
+				70A8F94B66EF79560D0B1934 /* [CP] Embed Pods Frameworks */,
+				0592AB1C24006FDDB9CE5C31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webonise_assig_rajesh;
+			productName = webonise_assig_rajesh;
+			productReference = 18504D4D1EE9B87A0002D77C /* webonise_assig_rajesh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18504D631EE9B87B0002D77C /* webonise_assig_rajeshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18504D701EE9B87B0002D77C /* Build configuration list for PBXNativeTarget "webonise_assig_rajeshTests" */;
+			buildPhases = (
+				18504D601EE9B87B0002D77C /* Sources */,
+				18504D611EE9B87B0002D77C /* Frameworks */,
+				18504D621EE9B87B0002D77C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18504D661EE9B87B0002D77C /* PBXTargetDependency */,
+			);
+			name = webonise_assig_rajeshTests;
+			productName = webonise_assig_rajeshTests;
+			productReference = 18504D641EE9B87B0002D77C /* webonise_assig_rajeshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18504D451EE9B87A0002D77C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Rajesh;
+				TargetAttributes = {
+					18504D4C1EE9B87A0002D77C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					18504D631EE9B87B0002D77C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18504D4C1EE9B87A0002D77C;
+					};
+				};
+			};
+			buildConfigurationList = 18504D481EE9B87A0002D77C /* Build configuration list for PBXProject "webonise_assig_rajesh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18504D441EE9B87A0002D77C;
+			productRefGroup = 18504D4E1EE9B87A0002D77C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18504D4C1EE9B87A0002D77C /* webonise_assig_rajesh */,
+				18504D631EE9B87B0002D77C /* webonise_assig_rajeshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18504D4B1EE9B87A0002D77C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18504D5E1EE9B87A0002D77C /* LaunchScreen.storyboard in Resources */,
+				18504D5B1EE9B87A0002D77C /* Assets.xcassets in Resources */,
+				18504D561EE9B87A0002D77C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18504D621EE9B87B0002D77C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0592AB1C24006FDDB9CE5C31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webonise_assig_rajesh/Pods-webonise_assig_rajesh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11696FC596792A1CF3D4F594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70A8F94B66EF79560D0B1934 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webonise_assig_rajesh/Pods-webonise_assig_rajesh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18504D491EE9B87A0002D77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DB908C1EEC378A00B0D2B5 /* PlaceTableCell.swift in Sources */,
+				187CBA631EECA1230076D7F7 /* SearchViewModel.swift in Sources */,
+				18DB908E1EEC482F00B0D2B5 /* DBHelper.swift in Sources */,
+				187CBA671EECA9A80076D7F7 /* Protocols.swift in Sources */,
+				187CBA651EECA14F0076D7F7 /* ResultViewModel.swift in Sources */,
+				184240761EEB9710007D0917 /* SearchViewController.swift in Sources */,
+				18504D591EE9B87A0002D77C /* webonise_assig_rajesh.xcdatamodeld in Sources */,
+				18504D511EE9B87A0002D77C /* AppDelegate.swift in Sources */,
+				184240751EEB9710007D0917 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18504D601EE9B87B0002D77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18504D691EE9B87B0002D77C /* webonise_assig_rajeshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18504D661EE9B87B0002D77C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18504D4C1EE9B87A0002D77C /* webonise_assig_rajesh */;
+			targetProxy = 18504D651EE9B87B0002D77C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18504D541EE9B87A0002D77C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18504D551EE9B87A0002D77C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18504D5C1EE9B87A0002D77C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18504D5D1EE9B87A0002D77C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18504D6B1EE9B87B0002D77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18504D6C1EE9B87B0002D77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18504D6E1EE9B87B0002D77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F7D64A7434A8285F9C397C /* Pods-webonise_assig_rajesh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = webonise_assig_rajesh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rajesh.webonise-assig-rajesh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18504D6F1EE9B87B0002D77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED54A725919B7056C6ED3BB3 /* Pods-webonise_assig_rajesh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = webonise_assig_rajesh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rajesh.webonise-assig-rajesh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18504D711EE9B87B0002D77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = webonise_assig_rajeshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rajesh.webonise-assig-rajeshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webonise_assig_rajesh.app/webonise_assig_rajesh";
+			};
+			name = Debug;
+		};
+		18504D721EE9B87B0002D77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = webonise_assig_rajeshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rajesh.webonise-assig-rajeshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webonise_assig_rajesh.app/webonise_assig_rajesh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18504D481EE9B87A0002D77C /* Build configuration list for PBXProject "webonise_assig_rajesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18504D6B1EE9B87B0002D77C /* Debug */,
+				18504D6C1EE9B87B0002D77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18504D6D1EE9B87B0002D77C /* Build configuration list for PBXNativeTarget "webonise_assig_rajesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18504D6E1EE9B87B0002D77C /* Debug */,
+				18504D6F1EE9B87B0002D77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18504D701EE9B87B0002D77C /* Build configuration list for PBXNativeTarget "webonise_assig_rajeshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18504D711EE9B87B0002D77C /* Debug */,
+				18504D721EE9B87B0002D77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18504D571EE9B87A0002D77C /* webonise_assig_rajesh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18504D581EE9B87A0002D77C /* webonise_assig_rajesh.xcdatamodel */,
+			);
+			currentVersion = 18504D581EE9B87A0002D77C /* webonise_assig_rajesh.xcdatamodel */;
+			path = webonise_assig_rajesh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18504D451EE9B87A0002D77C /* Project object */;
+}
