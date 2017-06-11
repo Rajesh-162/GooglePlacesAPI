@@ -20,6 +20,7 @@ class SearchViewController: UIViewController, PlacesProtocol {
 
         searchModel.delegate = self
         searchModel.fetchPlaces()
+        self.title = "Google Places"
     }
     
     override func viewWillAppear(_ animated: Bool) {

@@ -103,7 +103,7 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Dmg-41-FYx"/>
                                 </connections>
                             </tableView>
-                            <searchBar contentMode="redraw" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pxx-0N-hEj">
+                            <searchBar contentMode="redraw" placeholder="Enter Place to Search" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pxx-0N-hEj">
                                 <rect key="frame" x="0.0" y="64" width="375" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <scopeButtonTitles>
@@ -214,7 +214,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7TS-LC-Lg0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="uYf-wl-tOZ" customClass="ResultViewModel" customModule="webonise_assig_rajesh" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="1752.8" y="131.78410794602701"/>
+            <point key="canvasLocation" x="1713" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bvE-lU-WCQ">
